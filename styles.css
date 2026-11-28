@@ -99,3 +99,26 @@ body {
   border: 1px solid;
   border-color: #808080 #fff #fff #808080;
 }
+
+.buttons {
+  display: flex;
+  gap: 2px;
+}
+
+.buttons span {
+  width: 16px;
+  height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c0c0c0;
+  color: #000;
+  border: 2px solid;
+  border-color: #fff #404040 #404040 #fff;
+  font: bold 11px "Tahoma", sans-serif;
+  line-height: 1;
+}
+
+.buttons .close {
+  margin-left: 2px;
+}
