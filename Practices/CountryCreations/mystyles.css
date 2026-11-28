@@ -15,7 +15,7 @@ header {
 	margin:auto;
 }
 
-section {
+div {
 	width: 760px;
 	background-image:url('Images/inner_background.gif');
 	background-repeat:repeat-y;
@@ -67,4 +67,3 @@ nav a:hover {
 	color: yellow;
 	border: 2px outset #CCC;
 }
-
