@@ -4,10 +4,10 @@ logo1 = new Image
 logo2 = new Image
 
 if (document.images) {
-	PrintButton1.src = "images/Print1.jpg"
-	PrintButton2.src = "images/Print2.jpg"
-	logo1.src = "images/logo1.jpg"
-	logo2.src = "images/logo2.jpg"
+	PrintButton1.src = "Images/Print1.jpg"
+	PrintButton2.src = "Images/Print2.jpg"
+	logo1.src = "Images/logo1.jpg"
+	logo2.src = "Images/logo2.jpg"
 }
 
 var imgArray = new Array(
@@ -28,7 +28,7 @@ var titleArray = new Array(
 
 );
 
-var imgPath = "images/fullsize/";
+var imgPath = "Images/fullsize/";
 
 //Swaps an image's src by id - used by the print button and logo rollovers
 function swapSrc(id, imgObj) {
