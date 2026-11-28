@@ -1,0 +1,101 @@
+body {
+    background-color: #008080;
+    padding-bottom: 48px;
+}
+
+.title h1 {
+  font: italic bold 56px "Times New Roman", Times, serif;
+  color: #fff;
+  text-shadow: 4px 4px 0 #000;
+}
+
+.title {
+  background: linear-gradient(#0000ff, #000000);
+}
+
+.terminal {
+  max-width: 1100px;
+  margin: 24px auto;
+  border: 2px solid #c0c0c0;
+  background: #000;
+  box-shadow: 4px 4px 0 #333;
+}
+
+.titlebar {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #000080, #1084d0);  /* Win 98/2000 blue */
+  color: #fff;
+  font: bold 14px "Tahoma", sans-serif;
+  padding: 4px 8px;
+}
+
+.term-body {
+  padding: 16px 20px;
+  font-family: "VT323", "Courier New", monospace;
+  color: #00ff41;
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 8px 32px;
+}
+
+.links a { color: #00ff41; text-decoration: none; }
+.links a:hover, .links a:focus { background: #00ff41; color: #000; }
+
+.taskbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 4px;
+  background: #c0c0c0;
+  border-top: 2px solid #fff;
+  font: 13px "Tahoma", "Arial", sans-serif;
+  z-index: 100;
+}
+
+.start-btn, .tasks a {
+  height: 24px;
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  background: #c0c0c0;
+  color: #000;
+  text-decoration: none;
+  border: 2px solid;
+  border-color: #fff #404040 #404040 #fff;
+  font: inherit;
+}
+
+.start-btn {
+    font-weight: bold; 
+}
+
+.start-btn:active, .tasks a:active, .tasks a:focus {
+  border-color: #404040 #fff #fff #404040;
+}
+
+.tasks { 
+    display: flex; 
+    gap: 4px; 
+    flex: 1; 
+}
+
+.tray {
+  height: 24px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  border: 1px solid;
+  border-color: #808080 #fff #fff #808080;
+}
