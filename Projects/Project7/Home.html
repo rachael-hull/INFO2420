@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Rent A Pet - Home </title>
+<link rel="stylesheet" href="mystyles.css">
+<script src="myscripts.js"></script>
+</head>
+<body onload="preloadImages()">
+	
+	<div id="container">
+		<header>
+			<h1 id="bannerheading"><img id="banner" src="Images/banner.jpg" alt="Rent A Pet banner" width="556" height="175"></h1>
+			
+			<a href="Home.html" onmouseover="swapSrc('logo', logo2);"
+			onmouseout="swapSrc('logo', logo1);">
+			
+			<img id="logo" src="Images/logo1.jpg" width="242" height="75" alt="Rent A Pet logo"></a>
+		</header>
+	
+	  <div id="content">
+			<nav>
+				<a href="Home.html">Home</a>
+				<br>
+				<br>
+				<a href="AboutUs.html">About Us</a>
+				<br>
+				<br>
+				<a href="Tributes.html">Tributes</a>
+				<br>
+				<br>
+				<a href="Survey.html">Survey</a>
+				<br>
+				<br>
+				<a href="Favorites.html">Favorites</a>
+		  	</nav>
+			
+			<article>
+				<h2>Welcome to Rent-A-Pet!</h2>
+			  	<p>If you love to interact with pets like we do, you should enjoy looking around this site.  Take a look at our Pet 		Profiles and take the opportunity to complete our survey.</p>
+				<div id="thumbs">
+					<img src="Images/thumbnails/image1sm.jpg" alt="Dog doing Trick" onmouseover="swapImage(0);">
+					<img src="Images/thumbnails/image2sm.jpg" alt="Two hunting Dogs" onmouseover="swapImage(1);">
+					<img src="Images/thumbnails/image3sm.jpg" alt="Dog and two kids" onmouseover="swapImage(2);">
+					<img src="Images/thumbnails/image4sm.jpg" alt="Woman and Dog" onmouseover="swapImage(3);">
+				</div>
+				<div id="image">
+					<img id="theImage" src="Images/fullsize/Image1Lg.jpg" alt="Dog doing trick">
+					<h2 id="bottomText">Dog preforming a trick</h2>
+				</div>
+				<img class="right" src="Images/BassetHoundSM.jpg" alt="Basset Hound">
+				<h2>What our customer's have been saying:</h2>
+				<p>My name is Bessie Anderson and I currently live in a retirement community that has a prohibition on pets. I really wanted to have a small dog that I could take out for walks, but I though it was not possible. Then I heard about Rent A Pet and I was excited to give it a try.</p>
+				<a href="Home.html">more >></a>
+			</article>
+		</div>
+	
+		<footer>
+			<h3>This web site has been created solely for educational purposes.</h3>
+			<h4><a href="mailto:10592173@uvu.edu">10592173@uvu.edu</a></h4>
+		</footer>
+</div>
+ 
+</body>
+</html>
